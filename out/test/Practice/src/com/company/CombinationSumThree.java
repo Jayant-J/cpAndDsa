@@ -31,4 +31,3 @@ public class CombinationSumThree {
         getSum(0, list, 4);
     }
 }
-

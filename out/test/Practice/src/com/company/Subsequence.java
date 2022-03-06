@@ -22,4 +22,3 @@ public class Subsequence {
         getAll(0, l);
     }
 }
-

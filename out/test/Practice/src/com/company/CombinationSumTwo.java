@@ -9,10 +9,10 @@ public class CombinationSumTwo {
     static int n=4;
 
     public static void getRes(int ind, List<Integer> list, int target){
-        if(ind==n){
-            if(target==0) {
-                System.out.println(list);
-            }
+         if(ind==n){
+             if(target==0) {
+                 System.out.println(list);
+             }
             return;
         }
         if(arr[ind]<=target) {
@@ -29,4 +29,3 @@ public class CombinationSumTwo {
         getRes(0, list, 7);
     }
 }
-

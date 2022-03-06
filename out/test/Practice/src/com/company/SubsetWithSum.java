@@ -26,4 +26,3 @@ public class SubsetWithSum {
         getSubSetSum(0, list, 0);
     }
 }
-

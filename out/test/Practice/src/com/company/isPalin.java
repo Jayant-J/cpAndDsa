@@ -15,4 +15,3 @@ public class isPalin {
         System.out.println(isPalin("madam", 0));
     }
 }
-

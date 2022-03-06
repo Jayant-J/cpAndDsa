@@ -45,4 +45,3 @@ public class NQueens {
         check(board, 0, leftRow, upperDiagonal, lowerDiagonal);
     }
 }
-

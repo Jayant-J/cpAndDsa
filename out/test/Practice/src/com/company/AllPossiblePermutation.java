@@ -51,4 +51,3 @@ public class AllPossiblePermutation {
         getAllPossiblePermutationSwapApproach(0);
     }
 }
-
