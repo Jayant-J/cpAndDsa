@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="288b4f63-36ad-419f-9daa-69aee0f599a5" name="Default Changelist" comment="" />
+    <list default="true" id="eb8dd46b-24dc-4a3c-8c88-f598ea3b1fef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/DirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/UndirectedGraph.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="68" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -17,27 +19,27 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1oNMldXg1XBZR1PsLpgdbCrNzBX" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="addedTrees" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="27L8MEZeheGMFYA4naxHfs8Hd8w" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/activation-1.1.1.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.SmallerNumberOnLeft">
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BST" />
+  <component name="RunManager">
+    <configuration name="MST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MST" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
@@ -49,72 +51,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.LevelOrder" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmallerNumberOnLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.SmallerNumberOnLeft" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Teaversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Teaversals" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Traversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Traversals" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.LevelOrder" />
-      <item itemvalue="Application.Teaversals" />
-      <item itemvalue="Application.Traversals" />
-      <item itemvalue="Application.BST" />
-      <item itemvalue="Application.SmallerNumberOnLeft" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SmallerNumberOnLeft" />
-        <item itemvalue="Application.BST" />
-        <item itemvalue="Application.Traversals" />
-        <item itemvalue="Application.Teaversals" />
-        <item itemvalue="Application.LevelOrder" />
+        <item itemvalue="Application.MST" />
       </list>
     </recent_temporary>
   </component>
@@ -123,161 +62,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="288b4f63-36ad-419f-9daa-69aee0f599a5" name="Default Changelist" comment="" />
-      <created>1613122746421</created>
+      <changelist id="eb8dd46b-24dc-4a3c-8c88-f598ea3b1fef" name="Default Changelist" comment="" />
+      <created>1649087955905</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613122746421</updated>
+      <updated>1649087955905</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="420" height="438" key="DebuggerActiveHint" timestamp="1646070307045">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="420" height="438" key="DebuggerActiveHint/0.0.1280.672@0.0.1280.672" timestamp="1646070307045" />
-    <state width="594" height="196" key="GridCell.Tab.0.bottom" timestamp="1646159512369">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="594" height="196" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.0.center" timestamp="1646159512369">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="594" height="196" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.0.left" timestamp="1646159512369">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="594" height="196" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.0.right" timestamp="1646159512369">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="594" height="196" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.1.bottom" timestamp="1646159512369">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="594" height="196" key="GridCell.Tab.1.bottom/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.1.center" timestamp="1646159512369">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="594" height="196" key="GridCell.Tab.1.center/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.1.left" timestamp="1646159512369">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="594" height="196" key="GridCell.Tab.1.left/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.1.right" timestamp="1646159512369">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="594" height="196" key="GridCell.Tab.1.right/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1645938245047">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1645938245047" />
-    <state x="732" y="56" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1646230090926">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="732" y="56" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.672@0.0.1280.672" timestamp="1646230090926" />
-    <state x="669" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1645940435011">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="669" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.672@0.0.1280.672" timestamp="1645940435011" />
-    <state x="617" y="152" key="run.anything.popup" timestamp="1645939290581">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="617" y="152" key="run.anything.popup/0.0.1280.672@0.0.1280.672" timestamp="1645939290581" />
-    <state x="606" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1646154975157">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="606" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1646154975157" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/company/ZerosToEnd.java</url>
-          <line>7</line>
-          <properties class="com.company.ZerosToEnd" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/company/Anagram.java</url>
-          <line>22</line>
-          <properties class="com.company.Anagram" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Ll.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Ll.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Ll.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Trees.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/MaxSubArr.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/ExcelConverterColumn.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/ExcelConverterColumn.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Anagram.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/AddSub.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/PrimeDiff.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Traversals.java</url>
-          <line>380</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand>
-      <path>
-        <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
-        <item name="Practice" type="462c0819:PsiDirectoryNode" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Practice$BST.ic" NAME="BST Coverage Results" MODIFIED="1646141561525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.company.*</FILTER>
-    </SUITE>
   </component>
 </project>
