@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Subsequence {
+public class SubsequenceAll {
     public static int[] arr=new int[]{3,1,2};
     static int n=3;
     public static void getAll(int ind, List<Integer> l){

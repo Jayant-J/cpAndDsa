@@ -17,7 +17,7 @@ public class AllUniqueSubSet {
             if(i>ind && arr[i]==arr[i-1])
                 continue;
             list.add(arr[i]);
-            getAllUniqueSubSet(i+1, list);
+            getAllUniqueSubSet(ind+1, list);
             list.remove(list.size()-1);
         }
 
@@ -28,3 +28,4 @@ public class AllUniqueSubSet {
         getAllUniqueSubSet(0, list);
     }
 }
+

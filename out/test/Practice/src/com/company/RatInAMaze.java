@@ -54,3 +54,4 @@ public class RatInAMaze {
         getPath(maze, 0, 0, path);
     }
 }
+

@@ -9,10 +9,11 @@ public class PowerSet {
             String sub="";
             for(int j=0;j<s.length();j++){
                 if((i & (1<<j))>0){
-                   sub+=s.charAt(j);
+                    sub+=s.charAt(j);
                 }
             }
             System.out.print(sub + " : ");
         }
     }
 }
+
