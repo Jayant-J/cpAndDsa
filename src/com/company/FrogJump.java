@@ -32,15 +32,22 @@ public class FrogJump {
     }
 
     public static void getMinEnergyWithDPTabulation(int n, int energy[], int dp[]) {
-        dp[0] = 0;
+//        dp[0] = 0;
+        int prev1=0, prev2=0;
         int first, second = Integer.MAX_VALUE;
         for (int i = 1; i < n; i++) {
-            first = dp[i - 1] + Math.abs(energy[i] - energy[i - 1]);
+//            first = dp[i - 1] + Math.abs(energy[i] - energy[i - 1]);
+            first = prev1 + Math.abs(energy[i] - energy[i - 1]);
             if (i > 1) {
-                second = dp[i - 2] + Math.abs(energy[i] - energy[i - 2]);
+//                second = dp[i - 2] + Math.abs(energy[i] - energy[i - 2]);
+                second = prev2 + Math.abs(energy[i] - energy[i - 2]);
             }
-            dp[i] = Math.min(first, second);
+//            dp[i] = Math.min(first, second);
+            int curr = Math.min(first, second);
+            prev2=prev1;
+            prev1=curr;
         }
-        System.out.println(dp[n-1]);
+        System.out.println(prev1);
+//        System.out.println(dp[n-1]);
     }
 }
