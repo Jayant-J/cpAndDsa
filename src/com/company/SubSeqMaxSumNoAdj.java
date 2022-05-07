@@ -11,7 +11,7 @@ public class SubSeqMaxSumNoAdj {
         int n = arr.length;
         dp = new int[n + 1];
         Arrays.fill(dp, -1);
-        System.out.println(getAllSub(n - 1, arr));
+        System.out.println(getMaxSumOfSub(n - 1, arr));
 
 //        TABULATION
 
@@ -24,10 +24,10 @@ public class SubSeqMaxSumNoAdj {
             int notTake = 0 + dp[i - 1];
             dp[i] = Math.max(take, notTake);
         }
-        System.out.println(dp[n-1]);
+        System.out.println(dp[n - 1]);
     }
 
-    public static int getAllSub(int ind, int arr[]) {
+    public static int getMaxSumOfSub(int ind, int arr[]) {
         if (ind == 0) {
             return arr[ind];
         }
@@ -37,8 +37,8 @@ public class SubSeqMaxSumNoAdj {
         if (dp[ind] != -1) {
             return dp[ind];
         }
-        int pick = arr[ind] + getAllSub(ind - 2, arr);
-        int notPick = 0 + getAllSub(ind - 1, arr);
+        int pick = arr[ind] + getMaxSumOfSub(ind - 2, arr);
+        int notPick = 0 + getMaxSumOfSub(ind - 1, arr);
         return dp[ind] = Math.max(pick, notPick);
     }
 }
