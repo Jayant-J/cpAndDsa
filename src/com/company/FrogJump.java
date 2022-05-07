@@ -12,6 +12,9 @@ public class FrogJump {
         int dp[] = new int[n + 1];
         Arrays.fill(dp, -1);
         System.out.println(getMinEnergyWithDP(n - 1, energy, dp));
+        Arrays.fill(dp, -1);
+        int dpNew[]=new int[n];
+        getMinEnergyWithDPTabulation(n, energy, dpNew);
     }
 
     public static int getMinEnergyWithDP(int ind, int energy[], int dp[]) {
@@ -23,8 +26,21 @@ public class FrogJump {
         int left = getMinEnergyWithDP(ind - 1, energy, dp) + Math.abs(energy[ind] - energy[ind - 1]);
         int right = Integer.MAX_VALUE;
         if (ind > 1) {
-            right = getMinEnergyWithDP(ind - 1, energy, dp) + Math.abs(energy[ind] - energy[ind - 2]);
+            right = getMinEnergyWithDP(ind - 2, energy, dp) + Math.abs(energy[ind] - energy[ind - 2]);
         }
         return dp[ind] = Math.min(left, right);
+    }
+
+    public static void getMinEnergyWithDPTabulation(int n, int energy[], int dp[]) {
+        dp[0] = 0;
+        int first, second = Integer.MAX_VALUE;
+        for (int i = 1; i < n; i++) {
+            first = dp[i - 1] + Math.abs(energy[i] - energy[i - 1]);
+            if (i > 1) {
+                second = dp[i - 2] + Math.abs(energy[i] - energy[i - 2]);
+            }
+            dp[i] = Math.min(first, second);
+        }
+        System.out.println(dp[n-1]);
     }
 }
