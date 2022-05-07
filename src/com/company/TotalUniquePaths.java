@@ -5,7 +5,9 @@ import java.util.Arrays;
 public class TotalUniquePaths {
     public static void main(String[] args) {
         int n = 2, m = 2;
-        int[][] maze = new int[m][n];
+//        -1 is a dead cell cannot go via that
+        int[][] maze = new int[][]{{0, -1}, {0, 0}};
+
         for (int[] row : dp)
             Arrays.fill(row, -1);
         System.out.println(getAllWays(0, 0, 1, 1, maze));
@@ -16,12 +18,17 @@ public class TotalUniquePaths {
                 if (i == 0 && j == 0) {
                     dp[0][0] = 1;
                 } else {
-                    int up = 0, left = 0;
-                    if (i > 0)
-                        up = dp[i - 1][j];
-                    if (j > 0)
-                        left = dp[i][j - 1];
-                    dp[i][j] = up + left;
+//                    dead cell condition
+                    if (maze[i][j] == -1) {
+                        dp[i][j] = 0;
+                    } else {
+                        int up = 0, left = 0;
+                        if (i > 0)
+                            up = dp[i - 1][j];
+                        if (j > 0)
+                            left = dp[i][j - 1];
+                        dp[i][j] = up + left;
+                    }
                 }
             }
         }
@@ -36,6 +43,10 @@ public class TotalUniquePaths {
             return 1;
         }
         if (destI < 0 || destJ < 0) {
+            return 0;
+        }
+//        Dead cell condition;
+        if (maze[destI][destJ] == -1) {
             return 0;
         }
         if (dp[destI][destJ] != -1) {
