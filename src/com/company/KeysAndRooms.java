@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class KeysAndRooms {
+public class KeysAndRooms {
 
     public static void current(List<Integer> keys, int[] visited){
         for (int j=0;j<keys.size();j++)
