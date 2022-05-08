@@ -5,39 +5,68 @@ import java.util.Arrays;
 public class MinPathSumVariableSrcDest {
 
     public static void main(String[] args) {
-        //src any thing in row 1 ie, 1
-        //dest any thing in row 4 ie, 8 or 9 or 6 or 10
-        int arr[][] = new int[][]{{1}, {2, 3}, {3, 6, 7}, {8, 9, 6, 10}};
+        int arr[][] = new int[][]{{1, 2, 10, 4}, {100, 3, 2, 1}, {1, 2, 20, 2}, {1, 2, 2, 1}};
         int n = arr.length;
         int dp[][] = new int[n][n];
-        for (int row = 0; row < dp.length; row++) {
-            Arrays.fill(dp[row], -1);
+        initializeDP(dp);
+        //call for all ele of last row
+        int min = Integer.MAX_VALUE;
+        for (int j = 0; j < arr[0].length; j++) {
+            min = Math.min(min, getMinPathSum(arr.length - 1, j, arr, dp));
+            initializeDP(dp);
         }
-        System.out.println(getMinPathSum(0, 0, n, arr, dp));
-
+        System.out.println(min);
 //     Tabulation
-//        base case
-        for (int j = 0; j < n; j++)
-            dp[n - 1][j] = arr[n - 1][j];
+        //base case
+        for (int j = 0; j < arr[0].length; j++) {
+            dp[0][j] = arr[0][j];
+        }
+        for (int i = 1; i < n; i++) {
+            for (int j = 0; j < arr[0].length; j++) {
+                int up = arr[i][j] + dp[i - 1][j];
+                int leftDiagonal = arr[i][j];
+                if (j - 1 >= 0)
+                    leftDiagonal += dp[i - 1][j - 1];
+                else
+                    leftDiagonal += 1000000;
 
-        for (int i = n - 2; i >= 0; i--) {
-            for (int j = arr[i].length-1; j >= 0; j--) {
-                int down = arr[i][j] + dp[i + 1][j];
-                int diag = arr[i][j] + dp[i + 1][j + 1];
-                dp[i][j] = Math.min(diag, down);
+                int rightDiagonal = arr[i][j];
+                if (j + 1 < arr[0].length)
+                    rightDiagonal += dp[i - 1][j + 1];
+                else
+                    rightDiagonal += 1000000;
+
+                dp[i][j] = Math.min(up, Math.min(leftDiagonal, rightDiagonal));
+
             }
         }
-        System.out.println(dp[0][0]);
+
+        int mini = Integer.MAX_VALUE;
+
+        for (int j = 0; j < arr[0].length; j++) {
+            mini = Math.min(mini, dp[n - 1][j]);
+        }
+        System.out.println(mini);
     }
 
-    public static int getMinPathSum(int i, int j, int n, int[][] arr, int[][] dp) {
-        if (i == n - 1)
-            return arr[n - 1][j];
+    public static int getMinPathSum(int i, int j, int[][] arr, int dp[][]) {
+        if (j < 0 || j >= arr[0].length)
+            return 100000;
+        if (i == 0) {
+            return arr[0][j];
+        }
         if (dp[i][j] != -1) {
             return dp[i][j];
         }
-        int down = arr[i][j] + getMinPathSum(i + 1, j, n, arr, dp);
-        int diag = arr[i][j] + getMinPathSum(i + 1, j + 1, n, arr, dp);
-        return dp[i][j] = Math.min(down, diag);
+        int up = arr[i][j] + getMinPathSum(i - 1, j, arr, dp);
+        int leftDiag = arr[i][j] + getMinPathSum(i - 1, j - 1, arr, dp);
+        int rightDiag = arr[i][j] + getMinPathSum(i - 1, j + 1, arr, dp);
+        return dp[i][j] = Math.min(up, Math.min(leftDiag, rightDiag));
+    }
+
+    static void initializeDP(int dp[][]) {
+        for (int row = 0; row < dp.length; row++) {
+            Arrays.fill(dp[row], -1);
+        }
     }
 }
