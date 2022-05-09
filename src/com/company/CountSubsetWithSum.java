@@ -36,11 +36,17 @@ public class CountSubsetWithSum {
     }
 
     public static int getCountSubsetWithSum(int ind, int target, int[] arr, int[][] dp) {
-        if (target == 0) {
-            return 1;
-        }
+//        if (target == 0) {
+//            return 1;
+//        }
         if (ind == 0) {
-            return arr[ind] == target ? 1 : 0;
+            if(target==0 && arr[ind]==2)
+                return 2;
+            if(target==0 || target ==arr[0])
+                return 1;
+            else
+                return 0;
+//            return arr[ind] == target ? 1 : 0;
         }
         if (dp[ind][target] != -1) {
             return dp[ind][target];
