@@ -15,6 +15,7 @@ public class MinCoinsForTarget {
 
 //      Tabulation
         dp = new int[n][target + 1];
+//        only 1 coin for all target (0-target)
         for (int i = 0; i < target; i++) {
             if (i % coins[0] == 0)
                 dp[0][i] = i / coins[0];
@@ -31,7 +32,7 @@ public class MinCoinsForTarget {
                 dp[ind][tar] = Math.min(notTake, take);
             }
         }
-        System.out.println(dp[n-1][target]);
+        System.out.println(dp[n - 1][target]);
     }
 
     public static int getCount(int ind, int target, int[] arr, int[][] dp) {
