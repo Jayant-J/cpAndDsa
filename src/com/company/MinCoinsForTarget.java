@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 public class MinCoinsForTarget {
     public static void main(String[] args) {
-        int coins[] = new int[]{1, 2, 3};
-        int target = 4;
-//        OP-> 4 =>{3,3,3,1}
+        int[] coins = new int[]{1, 2, 3};
+        int target = 7;
+//        OP-> 4 coins =>{3,3,3,1}
         int n = coins.length;
-        int dp[][] = new int[n][target + 1];
+        int[][] dp = new int[n][target + 1];
         for (int[] row : dp)
             Arrays.fill(row, -1);
         System.out.println(getCount(n - 1, target, coins, dp));
