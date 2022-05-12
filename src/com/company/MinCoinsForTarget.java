@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MinCoinsForTarget {
     public static void main(String[] args) {
         int coins[] = new int[]{1, 2, 3};
-        int target = 10;
+        int target = 4;
 //        OP-> 4 =>{3,3,3,1}
         int n = coins.length;
         int dp[][] = new int[n][target + 1];
@@ -16,7 +16,7 @@ public class MinCoinsForTarget {
 //      Tabulation
         dp = new int[n][target + 1];
 //        only 1 coin for all target (0-target)
-        for (int i = 0; i < target; i++) {
+        for (int i = 0; i <= target; i++) {
             if (i % coins[0] == 0)
                 dp[0][i] = i / coins[0];
             else
