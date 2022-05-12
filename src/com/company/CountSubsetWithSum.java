@@ -42,7 +42,7 @@ public class CountSubsetWithSum {
 //        if (ind == 0) {
 //            return arr[ind] == target ? 1 : 0;
 //        }
-//        OR
+//        OR for condition of array contains 0
         if (ind == 0) {
             if (target == 0 && arr[ind] == 2)
                 return 2;
