@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="288b4f63-36ad-419f-9daa-69aee0f599a5" name="Default Changelist" comment="" />
+    <list default="true" id="b4c415fa-1727-43d4-b797-143acd516e49" name="Default Changelist" comment="Count Subsets with diff K">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Demp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/com/company/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/com/company/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="68" />
+    <option name="myElementSize" value="176" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -17,27 +22,32 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1oNMldXg1XBZR1PsLpgdbCrNzBX" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="randomQ" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="28TsOwcuKPWeZtW7L6dJh70gft5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/activation-1.1.1.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/cloudServer" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.SmallerNumberOnLeft">
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BST" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CountSubsetWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.CountSubsetWithSum" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
@@ -49,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.LevelOrder" />
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Knapsack" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallerNumberOnLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.SmallerNumberOnLeft" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teaversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Teaversals" />
+    <configuration name="MinDiffSumSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MinDiffSumSubset" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Traversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Traversals" />
+    <configuration name="SubsetWithDifferenceD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SubsetWithDifferenceD" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
@@ -101,20 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.LevelOrder" />
-      <item itemvalue="Application.Teaversals" />
-      <item itemvalue="Application.Traversals" />
-      <item itemvalue="Application.BST" />
-      <item itemvalue="Application.SmallerNumberOnLeft" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SmallerNumberOnLeft" />
-        <item itemvalue="Application.BST" />
-        <item itemvalue="Application.Traversals" />
-        <item itemvalue="Application.Teaversals" />
-        <item itemvalue="Application.LevelOrder" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SubsetWithDifferenceD" />
+        <item itemvalue="Application.MinDiffSumSubset" />
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.CountSubsetWithSum" />
       </list>
     </recent_temporary>
   </component>
@@ -123,160 +126,357 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="288b4f63-36ad-419f-9daa-69aee0f599a5" name="Default Changelist" comment="" />
-      <created>1613122746421</created>
+      <changelist id="b4c415fa-1727-43d4-b797-143acd516e49" name="Default Changelist" comment="" />
+      <created>1651251883749</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613122746421</updated>
+      <updated>1651251883749</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial Commit">
+      <created>1651854283065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651854283065</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial Commit">
+      <created>1651902603725</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651902603725</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial Commit">
+      <created>1651902651791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651902651791</updated>
+    </task>
+    <task id="LOCAL-00004" summary="nth number of a fibonacci series">
+      <created>1651904666531</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651904666531</updated>
+    </task>
+    <task id="LOCAL-00005" summary="StairsProblem">
+      <created>1651905746750</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651905746750</updated>
+    </task>
+    <task id="LOCAL-00006" summary="frogJump from 0 to n with minimum energy">
+      <created>1651908229378</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651908229378</updated>
+    </task>
+    <task id="LOCAL-00007" summary="frogJump from 0 to n with minimum energy">
+      <created>1651912688589</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651912688589</updated>
+    </task>
+    <task id="LOCAL-00008" summary="frogJump from 0 to n with minimum energy">
+      <created>1651912942785</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651912942785</updated>
+    </task>
+    <task id="LOCAL-00009" summary="K frogJump from 0 to n with minimum energy">
+      <created>1651915603756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651915603756</updated>
+    </task>
+    <task id="LOCAL-00010" summary="max Sum subsequence with no adjacent ele">
+      <created>1651916986504</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651916986504</updated>
+    </task>
+    <task id="LOCAL-00011" summary="max Sum subsequence with no adjacent ele">
+      <created>1651917108118</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651917108118</updated>
+    </task>
+    <task id="LOCAL-00012" summary="max Sum subsequence with no adjacent ele and circular">
+      <created>1651917957758</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651917957758</updated>
+    </task>
+    <task id="LOCAL-00013" summary="count unique paths from src to dest int 2D matrix">
+      <created>1651920235082</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651920235082</updated>
+    </task>
+    <task id="LOCAL-00014" summary="count unique paths from src to dest int 2D matrix with dead cell">
+      <created>1651920610072</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651920610072</updated>
+    </task>
+    <task id="LOCAL-00015" summary="min path sum from src to dst">
+      <created>1651944372707</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651944372707</updated>
+    </task>
+    <task id="LOCAL-00016" summary="min path sum from src to variable dst ie triangle">
+      <created>1651945811824</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651945811824</updated>
+    </task>
+    <task id="LOCAL-00017" summary="min path sum from variable src to variable dst">
+      <created>1651988452025</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1651988452025</updated>
+    </task>
+    <task id="LOCAL-00018" summary="min path sum from 2 src to variable dst">
+      <created>1652007715674</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1652007715675</updated>
+    </task>
+    <task id="LOCAL-00019" summary="subset with sum k">
+      <created>1652011297766</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1652011297766</updated>
+    </task>
+    <task id="LOCAL-00020" summary="exactly 2 subset with same sum">
+      <created>1652011316986</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652011316986</updated>
+    </task>
+    <task id="LOCAL-00021" summary="min of 2 subset">
+      <created>1652104255734</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1652104255735</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Count Subsets with Sum K">
+      <created>1652115992795</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652115992795</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Count Subsets with Sum K">
+      <created>1652116271911</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1652116271911</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Count Subsets with diff K">
+      <created>1652171107112</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1652171107112</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Count Subsets with diff K">
+      <created>1652277158507</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1652277158507</updated>
+    </task>
+    <task id="LOCAL-00026" summary="trees">
+      <created>1652277224950</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1652277224950</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/cpAndDsa/src/com/company" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial Commit" />
+    <MESSAGE value="nth number of a fibonacci series" />
+    <MESSAGE value="StairsProblem" />
+    <MESSAGE value="frogJump from 0 to n with minimum energy" />
+    <MESSAGE value="K frogJump from 0 to n with minimum energy" />
+    <MESSAGE value="max Sum subsequence with no adjacent ele" />
+    <MESSAGE value="max Sum subsequence with no adjacent ele and circular" />
+    <MESSAGE value="count unique paths from src to dest int 2D matrix" />
+    <MESSAGE value="count unique paths from src to dest int 2D matrix with dead cell" />
+    <MESSAGE value="min path sum from src to dst" />
+    <MESSAGE value="min path sum from src to variable dst ie triangle" />
+    <MESSAGE value="min path sum from variable src to variable dst" />
+    <MESSAGE value="min path sum from 2 src to variable dst" />
+    <MESSAGE value="subset with sum k" />
+    <MESSAGE value="exactly 2 subset with same sum" />
+    <MESSAGE value="min of 2 subset" />
+    <MESSAGE value="Count Subsets with Sum K" />
+    <MESSAGE value="Count Subsets with diff K" />
+    <MESSAGE value="trees" />
+    <option name="LAST_COMMIT_MESSAGE" value="trees" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="420" height="438" key="DebuggerActiveHint" timestamp="1646070307045">
+    <state x="420" y="147" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1652265925319">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="420" height="438" key="DebuggerActiveHint/0.0.1280.672@0.0.1280.672" timestamp="1646070307045" />
-    <state width="594" height="196" key="GridCell.Tab.0.bottom" timestamp="1646159512369">
+    <state x="420" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672@0.0.1280.672" timestamp="1652265925319" />
+    <state x="529" y="0" key="CommitChangelistDialog2" timestamp="1652277223988">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="594" height="196" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.0.center" timestamp="1646159512369">
+    <state x="529" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1652277223988" />
+    <state width="454" height="466" key="DebuggerActiveHint" timestamp="1652276739707">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="594" height="196" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.0.left" timestamp="1646159512369">
+    <state width="454" height="466" key="DebuggerActiveHint/0.0.1280.672@0.0.1280.672" timestamp="1652276739707" />
+    <state x="93" y="93" width="1095" height="487" key="DiffContextDialog" timestamp="1652267615018">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="594" height="196" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.0.right" timestamp="1646159512369">
+    <state x="93" y="93" width="1095" height="487" key="DiffContextDialog/0.0.1280.672@0.0.1280.672" timestamp="1652267615018" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1651821417852">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="594" height="196" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.1.bottom" timestamp="1646159512369">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1651821417852" />
+    <state width="1237" height="220" key="GridCell.Tab.0.bottom" timestamp="1652276941550">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="594" height="196" key="GridCell.Tab.1.bottom/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.1.center" timestamp="1646159512369">
+    <state width="1237" height="220" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1652276941550" />
+    <state width="1237" height="220" key="GridCell.Tab.0.center" timestamp="1652276941549">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="594" height="196" key="GridCell.Tab.1.center/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.1.left" timestamp="1646159512369">
+    <state width="1237" height="220" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1652276941549" />
+    <state width="1237" height="220" key="GridCell.Tab.0.left" timestamp="1652276941549">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="594" height="196" key="GridCell.Tab.1.left/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state width="594" height="196" key="GridCell.Tab.1.right" timestamp="1646159512369">
+    <state width="1237" height="220" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1652276941549" />
+    <state width="1237" height="220" key="GridCell.Tab.0.right" timestamp="1652276941550">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="594" height="196" key="GridCell.Tab.1.right/0.0.1280.672@0.0.1280.672" timestamp="1646159512369" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1645938245047">
+    <state width="1237" height="220" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1652276941550" />
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1652276941550">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1645938245047" />
-    <state x="732" y="56" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1646230090926">
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.672@0.0.1280.672" timestamp="1652276941550" />
+    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1652276941550">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="732" y="56" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.672@0.0.1280.672" timestamp="1646230090926" />
-    <state x="669" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1645940435011">
+    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.672@0.0.1280.672" timestamp="1652276941550" />
+    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1652276941550">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="669" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.672@0.0.1280.672" timestamp="1645940435011" />
-    <state x="617" y="152" key="run.anything.popup" timestamp="1645939290581">
+    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.672@0.0.1280.672" timestamp="1652276941550" />
+    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1652276941550">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="617" y="152" key="run.anything.popup/0.0.1280.672@0.0.1280.672" timestamp="1645939290581" />
-    <state x="606" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1646154975157">
+    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.672@0.0.1280.672" timestamp="1652276941550" />
+    <state x="354" y="54" key="MultipleFileMergeDialog" timestamp="1652264617567">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="606" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1646154975157" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/company/ZerosToEnd.java</url>
-          <line>7</line>
-          <properties class="com.company.ZerosToEnd" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/company/Anagram.java</url>
-          <line>22</line>
-          <properties class="com.company.Anagram" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Ll.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Ll.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Ll.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Trees.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/MaxSubArr.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/ExcelConverterColumn.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/ExcelConverterColumn.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Anagram.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/AddSub.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/PrimeDiff.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Traversals.java</url>
-          <line>380</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand>
-      <path>
-        <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
-        <item name="Practice" type="462c0819:PsiDirectoryNode" />
-      </path>
-    </expand>
-    <select />
+    <state x="354" y="54" key="MultipleFileMergeDialog/0.0.1280.672@0.0.1280.672" timestamp="1652264617567" />
+    <state x="498" y="51" key="RollbackChangesDialog" timestamp="1652277068008">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="498" y="51" key="RollbackChangesDialog/0.0.1280.672@0.0.1280.672" timestamp="1652277068008" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1651902182099">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1651902182099" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1652277226985">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.672@0.0.1280.672" timestamp="1652277226985" />
+    <state width="647" height="343" key="XDebugger.FullValuePopup" timestamp="1651158083908">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="647" height="343" key="XDebugger.FullValuePopup/0.0.1280.672@0.0.1280.672" timestamp="1651158083908" />
+    <state x="93" y="93" width="1095" height="487" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1652264536206">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="93" y="93" width="1095" height="487" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.672@0.0.1280.672" timestamp="1652264536206" />
+    <state x="93" y="93" width="1095" height="487" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1651901954414">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="93" y="93" width="1095" height="487" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.672@0.0.1280.672" timestamp="1651901954414" />
+    <state x="424" y="53" key="git4idea.branch.GitSmartOperationDialog" timestamp="1652264611715">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="424" y="53" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.672@0.0.1280.672" timestamp="1652264611715" />
+    <state x="622" y="152" key="run.anything.popup" timestamp="1652008282716">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="622" y="152" key="run.anything.popup/0.0.1280.672@0.0.1280.672" timestamp="1652008282716" />
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1652104510893">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1652104510893" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Practice$BST.ic" NAME="BST Coverage Results" MODIFIED="1646141561525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/cpAndDsa$Main.ic" NAME="Main Coverage Results" MODIFIED="1650957845620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cpAndDsa$CombinationSumThree.ic" NAME="CombinationSumThree Coverage Results" MODIFIED="1651853970394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cpAndDsa$CombinationSum.ic" NAME="CombinationSum Coverage Results" MODIFIED="1651851287870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.company.*</FILTER>
     </SUITE>
   </component>
