@@ -25,6 +25,13 @@ public class SubSequenceContinuous {
 
     public static void main(String args[]) {
         int[] arr = {1, 2, 3};
+// O/P
+// 1
+// 1 2
+// 2
+// 1 2 3
+// 2 3
+// 3
         printSubArrays(arr, 0, 0);
     }
 }
