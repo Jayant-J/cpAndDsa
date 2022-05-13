@@ -34,7 +34,7 @@ public class LongestCommonSubSequenceSize {
         System.out.println(dP[n1][n2]);
     }
 
-    private static int getLongestCommonSubSequence(int i1, String s1, int i2, String s2, int[][] dp) {
+    public static int getLongestCommonSubSequence(int i1, String s1, int i2, String s2, int[][] dp) {
         if (i1 < 0 || i2 < 0) {
             return 0;
         }
