@@ -6,7 +6,7 @@ public class LongestCommonSubString {
         String s2 = "acjklp";
         int n1 = s1.length();
         int n2 = s2.length();
-//        op-> cjk
+//        op-> 5 ie -> cjklp
         int[][] dp = new int[n1 + 1][n2 + 1];
 //        Tabulation
 //        baseCase
