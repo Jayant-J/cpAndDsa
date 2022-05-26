@@ -2,9 +2,10 @@ package com.company;
 
 import java.util.Arrays;
 
-public class StockBuySell2 {
+public class StockBuySellNTxn{
     public static void main(String[] args) {
         int[] prices = new int[]{7, 1, 5, 3, 6, 4};
+//        op-> 7 ie(buy@1 sell@5 buy@3 sell@6)
         int n = prices.length;
         int[][] dp = new int[prices.length][2];
         for (int[] row : dp)

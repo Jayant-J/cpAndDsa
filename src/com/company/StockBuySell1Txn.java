@@ -1,8 +1,9 @@
 package com.company;
 
-public class StockBuySell1 {
+public class StockBuySell1Txn {
     public static void main(String[] args) {
         int[] prices = new int[]{7, 1, 5, 3, 6, 4};
+//        op-> 5 ie (buy@1  sell@6)
         System.out.println(getMaxProfit(prices));
     }
 
