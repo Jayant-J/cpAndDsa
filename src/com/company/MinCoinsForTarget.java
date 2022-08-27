@@ -6,7 +6,7 @@ public class MinCoinsForTarget {
     public static void main(String[] args) {
         int[] coins = new int[]{1, 2, 3};
         int target = 7;
-//        OP-> 4 coins =>{3,3,3,1}
+//        OP-> 3 coins =>{3,3,1}
         int n = coins.length;
         int[][] dp = new int[n][target + 1];
         for (int[] row : dp)
